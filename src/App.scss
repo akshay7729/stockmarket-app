@@ -1,0 +1,72 @@
+.heading {
+  text-align: center;
+}
+
+.stockCard {
+  display: flex;
+  max-width: 65%;
+  padding-top: 10px;
+}
+
+.stockCard {
+  .content {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    padding-bottom: 0px;
+    .content-img {
+      box-sizing: content-box;
+      width: 40px;
+      height: 40px;
+      padding: 10px;
+      border-radius: 50%;
+      border: 10px solid #efefef;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      margin-top: -10px;
+      img {
+        width: 150%;
+      }
+    }
+    .description {
+      color: #b0acac;
+    }
+  }
+  .content-1 {
+    flex: 1;
+  }
+  .content-2 {
+    flex: 2.5;
+  }
+  .content-3 {
+    flex: 2;
+  }
+  .content-desc {
+    .value-container {
+      display: flex;
+      flex-direction: row;
+      padding-top: 3px;
+      .value {
+        flex: 1;
+        .red {
+          color: red;
+        }
+        .green {
+          color: green;
+        }
+        svg {
+          position: absolute;
+          margin-left: -15px;
+          margin-top: 4px;
+        }
+        span {
+          padding-left: 10px;
+        }
+      }
+      .value-right {
+        text-align: right;
+      }
+    }
+  }
+}
